@@ -1,0 +1,55 @@
+table  td{
+    width: 40px;
+    height: 20px;
+    border: solid;
+
+}
+#tableau1 td:nth-child(even) {
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+    text-transform: uppercase;
+
+}
+#tableau2 td:nth-child(even){
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+    text-transform: uppercase;
+}
+#tableau3 td:nth-child(even){
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+    text-transform: uppercase;
+}
+#tableau4 td:nth-child(even){
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+    text-transform: uppercase;
+}
+#tableau1 td:nth-child(odd) {
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+    color:red;
+}
+#tableau2 td:nth-child(odd){
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+    color: blue;
+}
+#tableau3 td:nth-child(odd){
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+    color: green;
+}
+#tableau4 td:nth-child(odd){
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+    color:pink;
+}
